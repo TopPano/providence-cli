@@ -1,0 +1,121 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "1pu/tZq/0GYMd+xfDaNpCIqqfbQ=",
+			"path": "github.com/dnephin/cobra",
+			"revision": "a3c09249f1a24a9d951f2738fb9b9256b8b42fa5",
+			"revisionTime": "2016-11-03T22:13:39Z"
+		},
+		{
+			"checksumSHA1": "zWVDQ5YTRF1PuD698ApJNQaCjHQ=",
+			"path": "github.com/docker/docker/pkg/archive",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "G7KKPJF5ux2FijDVpd4ZVrFRw0U=",
+			"path": "github.com/docker/docker/pkg/fileutils",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "790kr4hx8KKGDHwCzZf01RVtuuc=",
+			"path": "github.com/docker/docker/pkg/gitutils",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "BkiWzuIrq4LhbXJ4KQvcCAO21/4=",
+			"path": "github.com/docker/docker/pkg/httputils",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "P1yif8tE8Ucc6SxQ6982URAa4Sk=",
+			"path": "github.com/docker/docker/pkg/idtools",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "powErPLUlD3xtgmznRdRm0XKrgg=",
+			"path": "github.com/docker/docker/pkg/ioutils",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "BlFSSK7zUjPzPuxkLmM/0wpvku8=",
+			"path": "github.com/docker/docker/pkg/jsonlog",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "EB475QAJVa19H5qXMLzQeM2ypxg=",
+			"path": "github.com/docker/docker/pkg/jsonmessage",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "ndnAFCfsGC3upNQ6jAEwzxcurww=",
+			"path": "github.com/docker/docker/pkg/longpath",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "oHqQiESBEfIJ+uu1+ue7PHvJ6CI=",
+			"path": "github.com/docker/docker/pkg/pools",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "a4Qz6pTO5H3ceqBlh8U7Wg8rrEo=",
+			"path": "github.com/docker/docker/pkg/progress",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "txf3EORYff4hO6PEvwBm2lyh1MU=",
+			"path": "github.com/docker/docker/pkg/promise",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "AsIFK0/Z1SO48kTRq5CbIoK5T+c=",
+			"path": "github.com/docker/docker/pkg/streamformatter",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "LYcrXNJQREydHC6H1cmtyD03QMc=",
+			"path": "github.com/docker/docker/pkg/symlink",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "VvLIvgb7iGtA/w4nppD4nOcMK14=",
+			"path": "github.com/docker/docker/pkg/system",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "wJgY3xvAk7ixRUbhfzaAlKtCXRM=",
+			"path": "github.com/docker/docker/pkg/term",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "28zvWJsE4skyLANiN3Png632NLM=",
+			"path": "github.com/docker/docker/pkg/urlutil",
+			"revision": "78a83a22699198b31c8cbdace3a73c8502f99ba1",
+			"revisionTime": "2016-11-02T14:00:49Z"
+		},
+		{
+			"checksumSHA1": "GxPD7A0NjMDom1xte0mghkpzr0E=",
+			"path": "github.com/spf13/pflag",
+			"revision": "5ccb023bc27df288a957c5e994cd44fd19619465",
+			"revisionTime": "2016-10-24T13:13:51Z"
+		}
+	],
+	"rootPath": "github.com/TopPano/providence-cli"
+}

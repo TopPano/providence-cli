@@ -1,0 +1,52 @@
+package engine
+
+import (
+  "fmt"
+  "strings"
+
+  "golang.org/x/net/context"
+
+  "github.com/TopPano/providence-cli/api/types"
+  "github.com/TopPano/providence-cli/cli"
+  "github.com/TopPano/providence-cli/cli/command"
+  "github.com/dnephin/cobra"
+)
+
+type removeOptions struct {
+  force     bool
+}
+
+// NewBuildCommand creates a new `prov engine build` command
+func NewRemoveCommand(provCli *command.ProvCli) *cobra.Command {
+  var opts removeOptions
+
+  cmd := &cobra.Command{
+    Use:    "rm [OPTIONS] ENGINE [ENGINE...]",
+    Short:  "Remove one or more engines",
+    Args:   cli.RequiresMinArgs(1),
+    RunE:   func(cmd *cobra.Command, args []string) error {
+      return runRemove(provCli, opts, args)
+    },
+  }
+
+  flags := cmd.Flags()
+
+  flags.BoolVarP(&opts.force, "force", "f", false, "Force removal of the engine")
+
+  return cmd
+}
+
+func runRemove(provCli *command.ProvCli, options removeOptions, engines []string) error {
+  client := provCli.Client()
+  ctx := context.Background()
+
+  var errs []string
+  for _, engine := range engines {
+
+  }
+
+  if len(errs) > 0 {
+    return fmt.Errorf("%s", strings.Join(errs, "\n"))
+  }
+  return nil
+}
